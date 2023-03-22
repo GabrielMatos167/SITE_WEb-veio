@@ -1,0 +1,60 @@
+@import url('https:fonte.googleapis.com.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto' , sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a { text-decoration: none;
+color: rgb(2, 2, 2);
+
+}
+
+button { padding: 10px 15px;
+    border: radius 8px;
+font-weight: bold;
+border: 0;
+background-color: rgb(164, 71, 201);
+color: white;
+}
+header {background: no-repeat center/cover url(assets/Sea\ Beach\ \(1920\ x\ 1080\).jpg);
+height: calc( 100vh - 200px );
+}
+
+header nav { display: flex;
+justify-content: space-between;
+margin: auto 90 px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    color: black;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.header-content h1 {
+margin-bottom: 10px;
+font-size: 3rem;
+
+};
